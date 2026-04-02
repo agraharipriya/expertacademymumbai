@@ -48,7 +48,7 @@ function Tutors() {
           <h2 className="text-4xl font-black mt-2" style={{ color: BRAND.primary }}>Our Expert Tutors</h2>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {tutors.map((t) => (
             <div key={t.name} className="bg-white rounded-2xl overflow-hidden shadow hover:shadow-xl transition-all hover:-translate-y-1">
               <div className="h-32 flex items-center justify-center text-6xl" style={{ background: t.color }}>

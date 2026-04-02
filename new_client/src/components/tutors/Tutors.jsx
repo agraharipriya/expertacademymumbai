@@ -29,6 +29,15 @@ function Tutors() {
       icon: "🧬",
       desc: "NCERT-focused teaching with diagrams & memory tricks.",
     },
+    {
+      name: "Er. Rajneesh Kumar Jha",
+      qual: "B.Tech",
+      exp: "6+ years | JEE Maths Specialist",
+      subject: "Maths",
+      color: "#fce7f3",
+      icon: "🧮",
+      desc: "Expert in JEE Maths problem solving and concept clarity.",
+    },
   ];
 
   return (

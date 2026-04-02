@@ -4,7 +4,7 @@ import { BRAND } from "../../constants/brand";
 function Syllabus() {
   const [active, setActive] = useState("📘 Physics");
   const subjects = {
-    "📘 Physics": ["Units & Measurements", "Kinematics & Laws of Motion", "Work, Energy & Power", "Gravitation", "Thermodynamics", "Waves & Sound", "Electricity & Magnetism", "Optics", "Modern Physics"],
+    "📘 Physics": ["Units & Measurements", "Kinematics & Laws of Motion", "Work, Energy & Power","Rotational Motion", "Gravitation","Mechanical Properties of matter","Thermal Properties of matter", "Thermodynamics","Kinetic Theory of Gases", "Oscillations & Wave","Electromagnetism", "Optics", "Modern Physics", "Semi-conductor",],
     "🧪 Chemistry": ["Basic Concepts of Chemistry", "Atomic Structure & Chemical Bonding", "Periodic Table & Properties", "Organic Chemistry Fundamentals", "Hydrocarbons & Functional Groups", "Thermodynamics & Equilibrium", "Coordination Compounds", "Biomolecules"],
     "🧮 Mathematics": ["Number System", "Quadratic Equations", "Arithmetic & Geometric Progressions", "Coordinate Geometry", "Trigonometry", "Limits & Differentiation", "Integration & Calculus", "Vectors & 3D Geometry", "Matrices & Determinants"],
     "🧬 Biology": ["Cell Structure & Functions", "Human Physiology", "Plant Physiology", "Genetics & Evolution", "Biotechnology", "Reproduction", "Biology in Human Welfare", "Ecology & Environment"],

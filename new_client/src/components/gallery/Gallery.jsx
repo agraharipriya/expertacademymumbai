@@ -25,12 +25,12 @@ function Gallery() {
           {images.slice(0, 4).map((url, i) => (
             <div
               key={i}
-              className="rounded-2xl h-64 overflow-hidden shadow-sm hover:shadow-lg transition-all hover:scale-[1.02]"
+              className="rounded-2xl h-64 overflow-hidden shadow-sm hover:shadow-lg transition-all hover:scale-[1.02] bg-white flex items-center justify-center"
             >
               <img 
                 src={url} 
                 alt={labels[i]} 
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
                 onError={(e) => {
                   e.target.style.display = 'none';
                   e.target.parentElement.innerHTML = `<div class="w-full h-full flex items-center justify-center bg-gray-100 text-gray-400">📷 ${labels[i]}</div>`;

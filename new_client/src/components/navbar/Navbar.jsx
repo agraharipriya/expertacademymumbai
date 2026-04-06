@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { BRAND } from "../../constants/brand";
+import logoImg from "../../assets/logo.png";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -24,7 +25,7 @@ function Navbar() {
         {/* Logo */}
         <div className="flex items-center gap-3">
           <img 
-            src="https://expertacademymumbai.com/logo.png" 
+            src={logoImg} 
             alt="Expert Academy Logo" 
             className="h-12 w-auto object-contain"
           />

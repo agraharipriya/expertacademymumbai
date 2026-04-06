@@ -1,12 +1,15 @@
 import { BRAND } from "../../constants/brand";
+import gallery1 from "../../assets/gallery1.png";
+import gallery2 from "../../assets/gallery2.png";
+import gallery3 from "../../assets/gallery3.png";
+import gallery4 from "../../assets/gallery4.png";
 
 function Gallery() {
   const images = [
-    "https://expertacademymumbai.com/gallery1.png",
-    "https://expertacademymumbai.com/gallery2.png",
-    "https://expertacademymumbai.com/gallery3.png",
-    "https://expertacademymumbai.com/gallery4.png",
-
+    gallery1,
+    gallery2,
+    gallery3,
+    gallery4,
   ];
   
   const labels = ["Physics Lab", "Online Session", "Mock Test", "Study Group", "Chemistry Class", "Biology Diagrams"];
